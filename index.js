@@ -73,11 +73,11 @@ function checkpage() {
 
 function fun() {
   sessionStorage.setItem("value", 1);
-  window.location.href = "./main.html";
+  window.location.href = "../src/main.html";
 }
 function fun2() {
   sessionStorage.setItem("value", 2);
-  window.location.href = "./main.html";
+  window.location.href = "../src/main.html";
 }
 
 function circleBend() {
