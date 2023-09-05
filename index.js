@@ -77,7 +77,7 @@ function fun() {
 }
 function fun2() {
   sessionStorage.setItem("value", 2);
-  window.location.href = "../src/main.html";
+  window.location.href = "./src/main.html";
 }
 
 function circleBend() {
