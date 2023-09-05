@@ -196,7 +196,7 @@ a
         justify-content:space-between;
         color: #fff;
         padding:10vw 4vw;
-        padding-left: 35vw;
+        padding-left: 30vw;
         width: 100%;
         background-color:black;
         
@@ -204,11 +204,12 @@ a
 
     #about img
     {   
-        width: 300px;
+        width: 21rem;
+        margin-right:2rem;
     }
 
     #textabout
-    {   width: 35rem;
+    {   width: 36rem;
         text-decoration: none;
 
     }
@@ -237,9 +238,9 @@ a
     }
     #subscribe{
         color: #fff;
-        padding: 20px 30px;
+        padding: 0px 30px;
         background-color:black;
-        padding-bottom: 2vw;
+        padding-bottom: 0vw;
     }
 
     #subscribe h3
@@ -264,7 +265,7 @@ a
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding:20px 30px;
+        padding: 20px 30px;
         background-color:black;
         color: #fff;
     }
@@ -272,13 +273,13 @@ a
     #footerleft
     {
         display: flex;
-        gap: 30px;
+        gap: 0px;
     }
 
     #footerright
     {
         display: flex;
-        gap: 30px;
+        gap: 20px;
     }
 
     #footer a
@@ -288,6 +289,11 @@ a
         font-weight: 500;
         color: #fff; 
         text-decoration: none;
+    }
+    #mybtn{
+        width:25%;
+        margin-bottom: 10px;
+        text-align:center;
     }
     #btn{
         width:25%;

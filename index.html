@@ -1,118 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-black">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chessify</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./src/loco.css" />
-    <link rel="stylesheet" href="./dist/output.css" />
-    <link rel="stylesheet" href="./src/input.css" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css " />
   </head>
-  <body class="overflow-x-hidden">
-    <div id="minicircle"></div>
-    <div id="main" class="bg-black overflow-x-hidden">
-      <div id="hero">
-        <div id="nav">
-          <a href="#textabout"data-scroll-to class="text-white ">Saubhagya Singh</a>
-          <h3><a href="achievements.html"id="achievements_Tab">Achievements+</a></h3>
-        </div>
-        <div id="heading">
-          <div class="bounding">
-            <h1 class="boundingelem">Chess</h1>
-          </div>
-          <div class="blocktext">
-            <div class="bounding">
-              <h1 id="secondh1" class="boundingelem">Coach</h1>
-            </div>
-            <div class="bounding">
-              <h5 class="boundingelem">Based in Pune</h5>
-            </div>
-          </div>
-        </div>
-        <div id="minorheadings">
-          <div class="bounding">
-            <h5 class="boundingelem">Available for hire</h5>
-          </div>
-          <div class="bounding">
-            <h5 class="boundingelem">Work Experience of 4+ years</h5>
-          </div>
-        </div>
-        <div id="herofooter">
-          <a href="https://www.zugzwang.in/https://www.zugzwang.in/"
-            >Previously worked at Zugzwang Academy<i
-              class="ri-arrow-right-up-fill"
-            ></i
-          ></a>
-          <a href="https://ratings.fide.com/profile/25660586">
-            Internationally FIDE Rated<i class="ri-verified-badge-line"></i>
-          </a>
-          <div id="iconset">
-            <div class="circle"><i id="uparrow" class="ri-arrow-up-line"></i></div>
-            <div class="circle"><i id="downarrow" class="ri-arrow-down-line"></i></div>
-          </div>
-        </div>
+  <body>
+    <script src="./index.js"></script>
+    <div id="welcome">
+      <div id="heading">
+        <p>
+          <span class="fancy"> What Job Profile are You Looking For? </span>
+        </p>
       </div>
-      <div id="secondpage">
-        <div class="elem">
-          <img src="../assets/img/l1.png" alt="" />
-          <h1>Beginner</h1>
-          <h5>1000 <</h5>
-        </div>
-        <div class="elem">
-          <img src="../assets/img/l2.png" alt="" />
-          <h1>Intermediate</h1>
-          <h5>1000-1400</h5>
-        </div>
-        <div class="elem elemlast">
-          <img src="../assets/img/l3.png" alt="" />
-          <h1 id="aboutmexd">Advanced</h1>
-          <h5>1400-1600</h5>
-        </div>
+      
+      <div id="b1">
+        <button id="Dev" class="glowing-btn" onclick="fun2()">
+          <span class=""><span class="">#DEVELOPER#</span></span>
+        </button>
       </div>
-      <div id="about" class="flex gap-12">
-        <img src="../assets/img/pfp.png" alt="" />
-        <div id="textabout">
-          <h3>About Me</h3>
-          <p>
-            I am Saubhagya, a chess enthusiast and coach based in Pune, India.
-            With a profound love for the game, I guide aspiring players through
-            intricate strategies, openings, middlegames, and endgames. My
-            personalized approach aims to nurture both skill and passion,
-            creating lasting connections to the world of chess.
-          </p>
-          <a href="https://lichess.org/@/saubhagya" id="btn">Lichess</a>
-          <a href="https://www.chess.com/stats/overview/saubhi65/0?" id="btn">Chess.com</a>
 
-        </div>
-      </div>
-      <div id="subscribe">
-        <h5>(FORGOT TO MENTION)</h5>
-        <h3><a href="https://msng.link/o?saubhagya1296=ig" id="ig">Follow Me on Instagram </a><i class="ri-instagram-line"></i></h3>
-      </div>
-      <div id="footer">
-        <div id="footerleft">
-          <h5>2023 &copy;</h5>
-          <h5>3:00AM IST</h5>
-        </div>
-        <div id="footerright">
-          <a href="https://www.linkedin.com/in/saubhagya-singh-9167b5190/"
-            >LinkedIn</a
-          >
-          <a href="https://github.com/SaubhagyaSingh">Github</a>
-          <a href="https://wa.link/bk52s4"
-            >Whatsapp</a
-          >
-          <a href="mailto: saubhagyasingh65@gmail.com"">Gmail</a>
-        </div>
+      <div id="b2">
+        <button
+          id="chesscoach"
+          class="glowing-btn"
+          onclick="fun()"
+         "
+        >
+          <span class="">
+            <span class=""> CHESS COACH</span>
+          </span>
+        </button>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-    <script src="./index.js"></script>
   </body>
 </html>
