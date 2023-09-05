@@ -244,6 +244,11 @@ a
 
     }
 
+    #main{
+        height: 100%;
+        padding:0;
+        margin: 0;
+    }
     #subscribe h3
     {
         text-transform: uppercase;
@@ -265,24 +270,34 @@ a
         border: none    !important;
     }
     #footer
-    {
+    {           
+        margin-bottom: -100px !important;
+        margin-left: 30px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 20px 30px;
         background-color:black;
         color: #fff;
     }
 
     #footerleft
     {
+        padding: 10px;
         display: flex;
+        gap:20px;
     }
 
     #footerright
-    {
-        display: flex;
+    {   
+        margin: 0;
+        padding: 0;
+        margin-right: 30px;
         gap: 20px;
+        display: flex;
+        position:absolute;
+        bottom: -50px;
+        right: 0;
+
     }
 
     #footer a

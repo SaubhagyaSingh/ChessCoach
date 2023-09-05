@@ -534,54 +534,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .flex {
   display: flex;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.w-screen {
-  width: 100vw;
-}
-
-.gap-12 {
-  gap: 3rem;
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .overflow-x-hidden {
@@ -591,11 +549,6 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 
 .text-white {
@@ -809,19 +762,20 @@ a
   justify-content:space-between;
   color: #fff;
   padding:10vw 4vw;
-  padding-left: 35vw;
+  padding-left: 30vw;
   width: 100%;
   background-color:black;
 }
 
 #about img
     {
-  width: 300px;
+  width: 21rem;
+  margin-right:2rem;
 }
 
 #textabout
     {
-  width: 35rem;
+  width: 36rem;
   text-decoration: none;
 }
 
@@ -850,9 +804,15 @@ a
 
 #subscribe{
   color: #fff;
-  padding: 20px 30px;
-  background-color:black;
-  padding-bottom: 2vw;
+  padding: 10px 30px;
+  background-color: black;
+  border: none !important;
+}
+
+#main{
+  height: 100%;
+  padding:0;
+  margin: 0;
 }
 
 #subscribe h3
@@ -861,6 +821,7 @@ a
   opacity: 0.8;
   font-size:14px;
   margin-top: 10px;
+  border: none    !important;
 }
 
 #subscribe h5
@@ -873,28 +834,37 @@ a
     {
   text-decoration: none;
   color: white;
+  border: none    !important;
 }
 
 #footer
     {
+  margin-bottom: -100px !important;
+  margin-left: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding:20px 30px;
   background-color:black;
   color: #fff;
 }
 
 #footerleft
     {
+  padding: 10px;
   display: flex;
-  gap: 30px;
+  gap:20px;
 }
 
 #footerright
     {
+  margin: 0;
+  padding: 0;
+  margin-right: 30px;
+  gap: 20px;
   display: flex;
-  gap: 30px;
+  position:absolute;
+  bottom: -50px;
+  right: 0;
 }
 
 #footer a
@@ -904,6 +874,12 @@ a
   font-weight: 500;
   color: #fff;
   text-decoration: none;
+}
+
+#mybtn{
+  width:25%;
+  margin-bottom: 10px;
+  text-align:center;
 }
 
 #btn{
