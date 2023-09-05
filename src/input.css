@@ -238,7 +238,7 @@ a
     }
     #subscribe{
         color: #fff;
-        padding: 0px 30px;
+        padding: 10px 30px;
         background-color:black;
         padding-bottom: 0vw;
     }
@@ -273,7 +273,6 @@ a
     #footerleft
     {
         display: flex;
-        gap: 0px;
     }
 
     #footerright
