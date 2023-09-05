@@ -239,8 +239,9 @@ a
     #subscribe{
         color: #fff;
         padding: 10px 30px;
-        background-color:black;
-        padding-bottom: 0vw;
+        background-color: black;
+        border: none !important;
+
     }
 
     #subscribe h3
@@ -249,6 +250,8 @@ a
         opacity: 0.8;
         font-size:14px;
         margin-top: 10px;
+        border: none    !important;
+
     }
     #subscribe h5
     {
@@ -259,6 +262,7 @@ a
     {
         text-decoration: none;
         color: white;
+        border: none    !important;
     }
     #footer
     {
