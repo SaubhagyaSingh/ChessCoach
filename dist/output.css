@@ -626,7 +626,7 @@ a
 
 #nav a{
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.5rem;
   color: White;
 }
 
@@ -887,14 +887,14 @@ a
   text-align:center;
 }
 
-@media (min-width: 380px) and (max-width:1080px)
+@media (min-width: 350px) and (max-width:1080px)
 {
   #hero
     {
     position: relative;
     color: #fff;
     /* width: 100%; */
-    height: 50vh;
+    height: 60vh;
     background-color: black;
   }
 
@@ -905,6 +905,12 @@ a
     padding-top:30px;
     background-color: black;
     width:100%;
+  }
+
+  #nav a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: White;
   }
 
   #about
@@ -943,5 +949,18 @@ a
     width:45%;
     margin-bottom: 10px;
     text-align:center;
+  }
+
+  #minorheadings h5
+    {
+    margin-top: 0.5vw;
+    text-align: right;
+    font-size:2.75vw;
+    text-transform: uppercase;
+  }
+
+  #minorheadings
+    {
+    margin-top:5rem;
   }
 }
