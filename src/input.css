@@ -317,7 +317,7 @@ a
         margin-bottom: 10px;
         text-align:center;
     }
-@media (max-width: 480px)
+@media (min-width: 480px) and (max-width:800px)
 {
     #hero
     {   
