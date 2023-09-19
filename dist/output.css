@@ -887,7 +887,7 @@ a
   text-align:center;
 }
 
-@media (min-width: 480px) and (max-width:800px)
+@media (min-width: 400px) and (max-width:1080px)
 {
   #hero
     {
