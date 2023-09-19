@@ -317,7 +317,7 @@ a
         margin-bottom: 10px;
         text-align:center;
     }
-@media only screen and (min-width: 480px)
+@media (max-width: 480px)
 {
     #hero
     {   
