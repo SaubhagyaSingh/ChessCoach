@@ -317,7 +317,7 @@ a
         margin-bottom: 10px;
         text-align:center;
     }
-@media (min-width: 350px) and (max-width:1080px)
+@media (min-width: 320px) and (max-width:780px)
 {
     #hero
     {   
@@ -338,7 +338,7 @@ a
     
     #nav a{
         text-decoration: none;
-        font-size: 2rem;
+        font-size: 1.75rem;
         color: White;
     }
 
