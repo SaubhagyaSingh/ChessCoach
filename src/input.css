@@ -167,11 +167,12 @@ a {
 }
 
 #about {
+	margin-top:6rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: #fff;
-  padding: 18vw 4vw;
+  padding: 12vw 4vw;
   padding-left: 30vw;
   width: 100%;
   background-color: black;
