@@ -352,7 +352,7 @@ a {
 }
 
 .project-img-holder{
-	height: 40rem;
+	height: auto;
 	background-color:black;
 	padding: 20px;
 	display: none;
@@ -376,7 +376,7 @@ a {
 	z-index: 1000;
 }
 .project-img-holder2{
-	height: 20rem;
+	height: auto;
 	background-color:black;
 	padding: 10px;
 	display: none;
@@ -411,8 +411,31 @@ a {
     background-color:black !important;
 }
 
+.Links{
+	font-size: 1.2em;
+}
+
+#thirdpage a{
+	margin: 4px;
+	color: black;
+	font-size: 1.2em;
+}
 
 
+#thirdpage button{
+	color: black;
+	font-size: 1.2em;
+
+}
+#thirdpage b{
+	font-size: 1rem;
+	text-decoration: none;
+}
+
+#thirdpage p{
+	font-size: 1rem;
+	text-decoration: none;
+}
 #tp-header{
     margin-top: 6rem;
     font-size: 4rem;
