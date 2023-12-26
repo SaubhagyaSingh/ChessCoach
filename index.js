@@ -110,6 +110,25 @@ function mouseFollower(scalex, scaley) {
   });
 }
 
+function toggleVis(buttonIndex) {
+  var x = document.getElementsByClassName("project-img-holder");
+  var y = document.getElementsByClassName("hide-load");
+
+  var currentButton = y[buttonIndex];
+  var correspondingDiv = x[buttonIndex];
+
+  if (
+    correspondingDiv.style.display == "none" ||
+    correspondingDiv.style.display === ""
+  ) {
+    correspondingDiv.style.display = "flex";
+    currentButton.textContent = "Hide";
+  } else {
+    correspondingDiv.style.display = "none";
+    currentButton.textContent = "Preview";
+  }
+}
+
 mouseFollower();
 
 firstPageAnim();
