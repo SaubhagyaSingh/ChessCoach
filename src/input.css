@@ -375,7 +375,31 @@ a {
 	flex: 0 0 auto; 
 	z-index: 1000;
 }
+.project-img-holder2{
+	height: 20rem;
+	background-color:black;
+	padding: 10px;
+	display: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	border-radius: 40px;
+	overflow: visible;
+	z-index: 1000;
+	width: 30rem;
+}
 
+.project-img-holder2 img{
+	height:280px;
+	border: solid white 1px;
+	width: 150px;
+	margin:10px;
+	padding:10px;
+	border-radius: 20px;
+	flex: 0 0 auto; 
+	z-index: 1000;
+}
 .tab-content button{
 	text-decoration: underline;
 	color:blue;
